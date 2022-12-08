@@ -88,3 +88,11 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+## Syncing changes from my original svelte-template (which this is based on)
+
+git remote add svelte-template https://github.com/MJ12358/svelte-template
+
+git pull --tage svelte-template master
+
+/// NOT CURRENTLY WORKING

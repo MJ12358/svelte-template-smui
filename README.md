@@ -11,7 +11,6 @@ cd svelte-app
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-
 ## Get started
 
 Install the dependencies...
@@ -33,7 +32,6 @@ By default, the server will only respond to requests from localhost. To allow co
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
-
 ## Building and running in production mode
 
 To create an optimised version of the app:
@@ -43,7 +41,6 @@ npm run build
 ```
 
 You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
-
 
 ## Single-page app mode
 
@@ -56,7 +53,6 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ```
 
 ## Deploying to the web
-
 
 ### With [Vercel](https://vercel.com)
 
@@ -72,7 +68,6 @@ Then, from within your project folder:
 cd public
 vercel deploy --name my-project
 ```
-
 
 ### With [surge](https://surge.sh/)
 
